@@ -74,7 +74,7 @@ UINT CMFC_SocketDlg::ThreadServerFun(LPVOID lParam)
 	{
 		if (!AfxSocketInit())
 			AfxMessageBox(L"Failed to Initialize Sockets");
-
+		//
 		m_exit = false;
 		//creat two socket
 		CSocket aSocket, serverSocket;
